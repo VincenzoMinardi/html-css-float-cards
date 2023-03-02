@@ -10,3 +10,44 @@ h1{
     color: rgb(226, 43, 174);
     font-family: 'Fredoka One', cursive;
 }
+
+main{
+    margin:auto;
+    max-width: 1200px;
+}
+
+.paragraf{
+    font-size: 1.3rem;
+    text-align: center;
+    margin:auto;
+}
+
+.img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.member{
+    float: left;
+    background-color: black;
+    width: 30%;
+    margin-left: 20px;
+    
+}
+
+.text{
+    color: white;
+}
+
+
+
+
+
+
+
+    
+
+
+
+
+
