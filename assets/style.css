@@ -13,7 +13,7 @@ h1{
 
 main{
     margin:auto;
-    max-width: 1200px;
+    max-width: 1300px;
 }
 
 .paragraf{
@@ -22,22 +22,40 @@ main{
     margin:auto;
 }
 
-.img{
-    width: 100px;
-    height: 100px;
+.photo-member{
+    height: 100%;
     float: left;
 }
 .member{
     float: left;
     background-color: black;
-    width: 30%;
-    margin-left: 20px;
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    margin: 10px;
     
+}
+
+.info-member{
+    padding-top: 10px;
+    padding-left: 120px;
 }
 
 .text{
     color: white;
+    font-family: 'Fredoka One', cursive;
+    margin-bottom: 5px;
+    font-size: 1.2rem;
 }
+
+a{
+    color: rgb(23, 224, 224);
+    font-size: 1.3rem;
+}
+
+
+
+
+
 
 
 
